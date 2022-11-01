@@ -1,4 +1,5 @@
 ## Frontend Stage 1 Task for HNG Internship
+
 ---
 
 This landing page is like a Linktree that allows a person show their personal profile and link to various digital things that they sell.
@@ -14,4 +15,4 @@ This landing page is like a Linktree that allows a person show their personal pr
 
 ### Screenshot 
 
-![Sreenshot](./assets/screenshot.png)
+![Sreenshot](./src/assets/screenshot.png)

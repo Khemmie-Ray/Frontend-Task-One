@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --grey: #EAECF0;
+  --gray: #D0D5DD;
+  --lightblue:  #667085;
+  --deepblue: #101828;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: var(--deepblue);
+}
+
+a {
+  display: block;
+  border-radius: 8px;
+  background-color: var(--gray);
+  padding: 1.2em;
+  margin-bottom: 1em;
+  color: var(--deepblue);
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+a:hover,
+a:focus {
+  background-color: var(--grey);
+}
+
+footer img {
+  width: 20%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0; 
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.avatar {
+  width: 20%;
+}
+
+header {
+  justify-content: center;
+  flex-direction: column;
+  margin: 1em 0;
+}
+
+footer, header, 
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.socials {
+  justify-content: center;
+  margin: 3em 0;
+}
+
+.github {
+  margin-left: 1em;
+}
+
+footer {
+  justify-content: space-between;
+  margin: 6em 0 1.5em 0;
+}
+
+footer p {
+  color: var(--lightblue);
+}
